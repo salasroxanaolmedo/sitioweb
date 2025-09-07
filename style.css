@@ -1,0 +1,127 @@
+
+/* fondo y letra*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: white;
+    color: black;
+    line-height: 1.6;
+}
+
+/* header */
+header {
+    background: whitesmoke;
+    color: black;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 2px solid #F8F8FF;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* contenido principal */
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* secciones */
+.cont1, .cont2 {
+    background: #fff;
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+/* subtítulos */
+h2 {
+    margin-bottom: 1rem;
+    color: #444;
+    border-left: 5px solid #999;
+    padding-left: 10px;
+    font-size: 1.4rem;
+}
+
+/* párrafos */
+p {
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+/* listas */
+ul {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* enlaces */
+a {
+    color: #555;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* footer*/
+footer {
+  background: #222;
+  color: #eee;
+  padding: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;  
+  max-width: 1200px;         
+  margin: 0 auto;            
+}
+
+footer h2 {
+  color: #c81313;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Enlaces */
+footer a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+footer a:hover {
+  color: #000000;
+}
+
+.contacto p {
+  background: #444;
+  color: #f1f1f1;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.contacto strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #000000;
+}
